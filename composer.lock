@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d6ce51e3546f94a4ab70690dd88ad5b",
+    "content-hash": "22aaf77b3e89a9bf3c0ba38138e2411c",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2381,6 +2381,58 @@
                 }
             ],
             "time": "2025-03-04T21:48:52+00:00"
+        },
+        {
+            "name": "m-nobre/team-profiler",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/m-nobre/team-profiler.git",
+                "reference": "5a509d70992e39b412369f71b1d73b998ed44c4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/m-nobre/team-profiler/zipball/5a509d70992e39b412369f71b1d73b998ed44c4a",
+                "reference": "5a509d70992e39b412369f71b1d73b998ed44c4a",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1|^8.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "MNobre\\TeamProfiler\\TeamProfilerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MNobre\\TeamProfiler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mário Nobre",
+                    "email": "m.nobre@ymail.com"
+                }
+            ],
+            "description": "Laravel Jetstream Teams Profiler (Change frontend Team denomination via routes and translation)",
+            "keywords": [
+                "laravel",
+                "php",
+                "template"
+            ],
+            "support": {
+                "issues": "https://github.com/m-nobre/team-profiler/issues",
+                "source": "https://github.com/m-nobre/team-profiler/tree/v1.1.1"
+            },
+            "time": "2025-02-10T22:48:10+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
